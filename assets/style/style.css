@@ -1,0 +1,45 @@
+/* BASE CONFIG */
+*{
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+}
+body{
+  font-family: "open Sans",Arial, Helvetica, sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+button{
+	background: none;
+	border: none;
+}
+/* BASE CONFIG */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+
+}
+.box {
+  
+  width: 500px;
+  height: 100px;
+  
+  background-color:cornflowerblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input {
+  width: 200px;
+  height: 50px;
+}
+.btn {
+  font-size: 25px;
+}
